@@ -48,6 +48,9 @@ Functional contact form to reach out directly.
 ### 🧾 Booking Section
 ![🧾 Booking Screenshot](https://raw.githubusercontent.com/EbrahimHiggi/Luxury-Hotel/main/images/check.png)
 
+A modern and interactive booking section that allows users to check room availability in real time.
+It includes date pickers for check-in and check-out, a room selection dropdown, and a responsive design for seamless booking across all devices.
+
 ## ✨ Future Improvements
 
 - Add an online room booking system.
@@ -61,7 +64,7 @@ Functional contact form to reach out directly.
 ## 🌐 Live Demo
 
 Check out the live version here:
-👉 Luxury Hotel on GitHub Pages
+[👉 Luxury Hotel on GitHub Pages](https://ebrahimhiggi.github.io/Luxury-Hotel/)
 
 ## 👨‍💻 Author
 
