@@ -25,7 +25,7 @@ JavaScript (ES6) – Interactivity and form handling.
 ## 📸 Screenshots
 
 ### 🏠 Homepage
-![Homepage Screenshot](https://raw.githubusercontent.com/EbrahimHiggi/Luxury-Hotel/main/images/homep.png)
+![Homepage Screenshot](https://raw.githubusercontent.com/EbrahimHiggi/Luxury-Hotel/main/images/Home.png)
 
 Beautiful landing section showcasing the hotel and its services.
 
