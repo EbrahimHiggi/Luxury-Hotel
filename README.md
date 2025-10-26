@@ -45,15 +45,18 @@ A section introducing the hotel’s story and values.
 
 Functional contact form to reach out directly.
 
+### 🧾 Booking Section
+![🧾 Booking Screenshot](https://raw.githubusercontent.com/EbrahimHiggi/Luxury-Hotel/main/images/check.png)
+
 ## ✨ Future Improvements
 
-Add an online room booking system.
+- Add an online room booking system.
 
-Integrate with Google Maps for real-time location.
+- Integrate with Google Maps for real-time location.
 
-Add multi-language support (English / Arabic).
+- Add multi-language support (English / Arabic).
 
-Include a reviews or testimonials section.
+- Include a reviews or testimonials section.
 
 ## 🌐 Live Demo
 
