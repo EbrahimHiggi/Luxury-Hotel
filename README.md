@@ -23,7 +23,9 @@ CSS3 – Styling, layout, and responsive design.
 JavaScript (ES6) – Interactivity and form handling.
 
 ## 📸 Screenshots
-🏠 Homepage
+
+### 🏠 Homepage
+![Homepage Screenshot](https://raw.githubusercontent.com/EbrahimHiggi/Luxury-Hotel/main/images/homepage.png)
 
 Beautiful landing section showcasing the hotel and its services.
 
