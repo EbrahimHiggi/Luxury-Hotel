@@ -4,23 +4,23 @@ It showcases beautiful rooms, delicious food, and exclusive offers all in a clea
 
 ## 📌 Features
 
-Fully responsive design (works on desktop, tablet, and mobile).
+- Fully responsive design (works on desktop, tablet, and mobile).
 
-Home, Rooms, About, and Contact pages with smooth navigation.
+- Home, Rooms, About, and Contact pages with smooth navigation.
 
-Attractive layout with high-quality images and modern animations.
+- Attractive layout with high-quality images and modern animations.
 
-Contact form connected to Formspree for real-time messaging.
+- Contact form connected to Formspree for real-time messaging.
 
-User-friendly interface for hotel visitors and potential customers.
+- User-friendly interface for hotel visitors and potential customers.
 
 ## 🛠️ Technologies Used
 
-HTML5 – Structure and semantic layout.
+- HTML5 – Structure and semantic layout.
 
-CSS3 – Styling, layout, and responsive design.
+- CSS3 – Styling, layout, and responsive design.
 
-JavaScript (ES6) – Interactivity and form handling.
+- JavaScript (ES6) – Interactivity and form handling.
 
 ## 📸 Screenshots
 
