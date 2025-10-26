@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxury</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <ul class="left-nav">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <div class="logo">
+          <h5 class="letter">L</h5>
+          <span class="text">Luxury</span>
+        </div>
+        <div class="right-nav">
+          <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="but">
+            <button class="open-model">Book A Room</button>
+
+            <div class="Model" id="Model">
+              <div class="model-content">
+                <span class="fas fa-times" id="close-login"></span>
+
+                <h2>Check Availability</h2>
+                <form>
+                  <div class="form-row">
+                    <input
+                      type="date"
+                      name="checkin"
+                      placeholder="Check in date"
+                      required
+                    />
+                    <input
+                      type="date"
+                      name="checkout"
+                      placeholder="Check out date"
+                      required
+                    />
+                  </div>
+
+                  <div class="form-row">
+                    <select required>
+                      <option selected disabled>Adult</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select>
+
+                    <select required>
+                      <option selected disabled>Children</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select>
+                  </div>
+
+                  <div class="form-row-single">
+                    <select required>
+                      <option selected disabled>Room type</option>
+                      <option>Laxaries Rooms</option>
+                      <option>Deluxe Room</option>
+                      <option>Signature Room</option>
+                      <option>Couple Room</option>
+                    </select>
+                  </div>
+
+                  <button type="submit" class="but-check">
+                    Check Availability
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- contact section -->
+    <section class="contact-hero">
+      <div class="overlay">
+        <h2>Get in Touch</h2>
+        <p>We’d love to hear from you</p>
+      </div>
+    </section>
+
+    <section class="contact-con">
+      <div class="contain-contact">
+        <form class="contact-form" action="">
+          <div class="row">
+            <input type="text" placeholder="Enter your name" required />
+            <input type="email" placeholder="Email" required />
+          </div>
+          <input type="text" placeholder="Enter Subject" required />
+          <textarea placeholder="Your Message"></textarea>
+          <button type="submit">SEND</button>
+        </form>
+
+        <div class="contact-info">
+          <div class="info-box">
+            <i class="fas fa-home"></i>
+            <div>
+              <h4>Zamalek, Cairo, Egypt.</h4>
+              <p>Cairo Governorate, 11511</p>
+            </div>
+          </div>
+          <div class="info-box">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h4>+1 253 565 2365</h4>
+              <p>Sun to Fri 9am to 6pm</p>
+            </div>
+          </div>
+          <div class="info-box">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>support@ebrahim.com</h4>
+              <p>Send us your query anytime!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-col">
+          <h4>Address</h4>
+          <p>
+            117 El Thawra Street,<br />
+            Cairo
+          </p>
+          <a href="#">Get Direction</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Reservation</h4>
+          <p>+10 585 707 6612</p>
+          <p>reservation@Luxury.com</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Rooms</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <form>
+            <input type="email" placeholder="Enter your mail" />
+            <button type="submit">Sign Up</button>
+          </form>
+          <p>Subscribe newsletter to get updates</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="copyright">
+          Copyright © 2025 All rights reserved | Create by Ebrahim Mohamed
+        </div>
+        <div class="social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

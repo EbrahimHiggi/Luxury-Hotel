@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxury</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <ul class="left-nav">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="logo">
+          <h5 class="letter">L</h5>
+          <span class="text">Luxury</span>
+        </div>
+        <div class="right-nav">
+          <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="but">
+            <button class="open-model">Book A Room</button>
+
+            <div class="Model" id="Model">
+              <div class="model-content">
+                <span class="fas fa-times" id="close-login"></span>
+
+                <h2>Check Availability</h2>
+                <form>
+                  <div class="form-row">
+                    <input
+                      type="date"
+                      name="checkin"
+                      placeholder="Check in date"
+                      required
+                    />
+                    <input
+                      type="date"
+                      name="checkout"
+                      placeholder="Check out date"
+                      required
+                    />
+                  </div>
+
+                  <div class="form-row">
+                    <select required>
+                      <option selected disabled>Adult</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select>
+
+                    <select required>
+                      <option selected disabled>Children</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select>
+                  </div>
+
+                  <div class="form-row-single">
+                    <select required>
+                      <option selected disabled>Room type</option>
+                      <option>Laxaries Rooms</option>
+                      <option>Deluxe Room</option>
+                      <option>Signature Room</option>
+                      <option>Couple Room</option>
+                    </select>
+                  </div>
+
+                  <button type="submit" class="but-check">
+                    Check Availability
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- about section -->
+    <section class="about-hero">
+      <div class="overlay">
+        <h2>About Laxaries</h2>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about">
+      <div class="contain-about">
+        <div class="about-text">
+          <h5>About Us</h5>
+          <h2>A Luxuries Hotel with Nature</h2>
+          <p>
+            Suscipit libero pretium nullam potenti. Interdum, blandit phasellus
+            consectetuer dolor ornare dapibus enim ut tincidunt rhoncus tellus
+            sollicitudin pede nam maecenas, dolor sem. Neque sollicitudin enim.
+            Dapibus lorem feugiat facilisi faucibus et. Rhoncus.
+          </p>
+          <a href="#" class="learn-more">Learn More</a>
+        </div>
+
+        <div class="about-images">
+          <img src="images/about_1.png" alt="about_1" />
+          <img src="images/about_2.png" alt="about_2" />
+        </div>
+      </div>
+    </section>
+
+    <!-- food section -->
+    <section class="food">
+      <div class="contain-food">
+        <div class="food-images">
+          <img src="images/food1.png" alt="food1" />
+          <img src="images/food2.png" alt="food2" />
+        </div>
+
+        <div class="food-text">
+          <h5>Delicious Food</h5>
+          <h2>We Serve Fresh and Delicious Food</h2>
+          <p>
+            Suscipit libero pretium nullam potenti. Interdum, blandit phasellus
+            consectetuer dolor ornare dapibus enim ut tincidunt rhoncus tellus
+            sollicitudin pede nam maecenas, dolor sem. Neque sollicitudin enim.
+            Dapibus lorem feugiat facilisi faucibus et. Rhoncus.
+          </p>
+          <a href="#" class="learn-more">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reservation section -->
+    <section class="reservation">
+      <div class="contain-reservation">
+        <div class="reservation-text">
+          <h3>For Reservation Or Query?</h3>
+          <a href="tel:+10 585 707 6612" class="call-but">+10 585 707 6612</a>
+        </div>
+
+        <div class="reservation-insta">
+          <div class="insta-box">
+            <img src="images/insta1.png" alt="insta1" />
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+
+          <div class="insta-box">
+            <img src="images/insta2.png" alt="insta2" />
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+
+          <div class="insta-box">
+            <img src="images/insta3.png" alt="insta3" />
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+
+          <div class="insta-box">
+            <img src="images/insta4.png" alt="insta4" />
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-col">
+          <h4>Address</h4>
+          <p>
+            117 El Thawra Street,<br />
+            Cairo
+          </p>
+          <a href="#">Get Direction</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Reservation</h4>
+          <p>+10 585 707 6612</p>
+          <p>reservation@Luxury.com</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Rooms</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <form>
+            <input type="email" placeholder="Enter your mail" />
+            <button type="submit">Sign Up</button>
+          </form>
+          <p>Subscribe newsletter to get updates</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="copyright">
+          Copyright © 2025 All rights reserved | Create by Ebrahim Mohamed
+        </div>
+        <div class="social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
