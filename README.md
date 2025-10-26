@@ -64,7 +64,7 @@ It includes date pickers for check-in and check-out, a room selection dropdown, 
 ## 🌐 Live Demo
 
 Check out the live version here:
-[👉 Luxury Hotel on GitHub Pages](https://ebrahimhiggi.github.io/Luxury-Hotel/)
+(https://ebrahimhiggi.github.io/Luxury-Hotel/)
 
 ## 👨‍💻 Author
 
