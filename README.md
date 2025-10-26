@@ -29,15 +29,19 @@ JavaScript (ES6) – Interactivity and form handling.
 
 Beautiful landing section showcasing the hotel and its services.
 
-🛏️ Rooms
+
+### 🛏️ Rooms Page
+![Rooms Screenshot](https://raw.githubusercontent.com/EbrahimHiggi/Luxury-Hotel/main/images/rooms.png)
 
 Detailed information about room types, pricing, and features.
 
-🍽️ About
+### 🍽️ About Section
+![About Screenshot](https://raw.githubusercontent.com/EbrahimHiggi/Luxury-Hotel/main/images/about.png)
 
 A section introducing the hotel’s story and values.
 
-📞 Contact
+### 📞 Contact
+![Contact Screenshot](https://raw.githubusercontent.com/EbrahimHiggi/Luxury-Hotel/main/images/contact.png)
 
 Functional contact form to reach out directly.
 
